@@ -5,27 +5,27 @@
 var doughnutData = [
     {
         value: 300,
-        color: "#F7464A",
-        highlight: "#FF5A5E",
-        label: "Red"
+        color: "#558550",
+        highlight: "#20a824",
+        label: "Festival"
     },
     {
         value: 50,
         color: "#46BFBD",
         highlight: "#5AD3D1",
-        label: "Green"
+        label: "Sport"
     },
     {
         value: 100,
         color: "#FDB45C",
         highlight: "#FFC870",
-        label: "Yellow"
+        label: "Theatre"
     },
     {
         value: 40,
         color: "#949FB1",
         highlight: "#A8B3C5",
-        label: "Grey"
+        label: "Conference"
     },
     {
         value: 120,
