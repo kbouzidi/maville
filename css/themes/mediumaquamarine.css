@@ -1,0 +1,105 @@
+/* 1. BASIC STYLES ============================== */
+
+/* text selection color */
+::-moz-selection {
+    background: #1bbc9d;
+    color: #fff;
+}
+::selection {
+    background: #1bbc9d;
+    color: #fff;
+}
+
+/* link colors */
+a {
+    color: #1bbc9d;
+}
+a:hover {
+    color: #27292b;
+}
+
+/* button color */
+.btn-primary {
+    background-color: #1bbc9d;
+    border-color: #1bbc9d;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #39cfb2;
+    border-color: #39cfb2;
+}
+
+/* input color */
+.form-control:focus {
+    border-color: #1bbc9d;
+}
+
+/* opacity overlays */
+.color-overlay {
+    background: #1bbc9d;
+}
+
+/* titles* */
+.title .circle, 
+.title .line {
+    background: #1bbc9d;
+}
+
+/* other styles */
+.highlited {
+    color: #1bbc9d;
+}
+
+/* 2. NAVIGATION ============================== */
+.navbar .navbar-toggle:focus {
+    background: #1bbc9d;
+}
+.navbar-default .navbar-nav>li.active a,
+.navbar-default .navbar-nav>li.active a:hover {
+    color: #1bbc9d;
+}
+.navbar.navbar-shrink .navbar-nav>li>a:hover,
+.navbar.navbar-shrink .navbar-nav>li>a:focus {
+    color: #1bbc9d;
+}
+@media (max-width: 768px) { 
+    .navbar-default .navbar-nav>li>a:hover {
+        color: #1bbc9d;
+    }
+}
+
+/* 4. FEATURES SECTION ============================== */
+
+.style-1.features .features-item .big-icon { color:#fff;}
+.style-1.features .features-item.one { background:#1bbc9d;}
+.style-1.features .features-item.two { background:#18b798;}
+
+.style-2.features .col-feature:hover .feature-icon .icon, .style-2.features .col-feature:hover .name, .style-3.features .col-feature:hover .feature-icon .icon, .style-3.features .col-feature:hover .name {
+    border-color: #1bbc9d;
+    color: #1bbc9d;
+}
+
+/* 9. PRICING SECTION ============================== */
+#prices .pricing-item .pricing-title {
+    background: #1bbc9d;
+    color: #fff;
+}
+#prices .pricing-item .price {
+    background: #17af92;
+    color: #fff;
+}
+#prices .pricing-item.best .pricing-title {
+    background: #28c5a7;
+}
+#prices .pricing-item.best .price {
+    background: #22b599;
+}
+#prices .pricing-item:hover .pricing-title {
+    background: #35ceb1;
+}
+#prices .pricing-item:hover .price {
+    background: #29b89d;
+}
